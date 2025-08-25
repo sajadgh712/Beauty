@@ -1,0 +1,20 @@
+@import "logIn.scss";
+
+
+@font-face {
+    font-family: Ravi;
+    src: url(../fonts/Ravi/Ravi-Regular.ttf);
+    font-family: Ravi-Medium;
+    src: url(../fonts/Ravi/Ravi-Medium.ttf);
+    font-family: Ravi-Bold;
+    src: url(../fonts/Ravi/Ravi-Bold.ttf);
+    font-family: Ravi-Light;
+    src: url(../fonts/Ravi/Ravi-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ravi, sans-serif;
+}
+
