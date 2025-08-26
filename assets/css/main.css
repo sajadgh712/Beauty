@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2rem;
   min-height: 10%;
   margin-top: 11rem;
 }
@@ -47,13 +47,13 @@
 
 .form-login .txt a span {
   color: #C5A17D;
-  font-size: 14px;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
 .form-login .txt-signin-login_black a span {
   color: black;
-  font-size: 14px;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -63,7 +63,7 @@
 }
 
 .form-login .txt-signin-login a span {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #C5A17D;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@
   background-color: #C5A17D;
   border-radius: 20px;
   border: none;
-  font-size: 14px;
+  font-size: 1rem;
   padding: 8px;
   width: 100%;
   display: flex;
@@ -101,6 +101,30 @@
   cursor: pointer;
 }
 
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  .header-txt {
+    font-size: 1rem;
+  }
+  .form-login form {
+    width: 30vw;
+  }
+  .form-login .txt a span {
+    font-size: 0.5rem;
+  }
+  .form-login .txt-signin-login_black a span {
+    font-size: 0.6rem;
+  }
+  .form-login .txt-signin-login a span {
+    font-size: 0.6rem;
+  }
+  .form-login .btn-login {
+    font-size: 0.6rem;
+    padding: 4px;
+  }
+}
 @font-face {
   font-family: Ravi;
   src: url(../fonts/Ravi/Ravi-Regular.ttf);
