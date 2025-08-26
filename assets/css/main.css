@@ -45,13 +45,35 @@
   margin: 10px 0 10px 0;
 }
 
-.form-login .forget a span {
+.form-login .txt a span {
   color: #C5A17D;
   font-size: 14px;
   text-decoration: none;
 }
 
-.form-login .forget a:link {
+.form-login .txt-signin-login_black a span {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-login .txt-signin-login_black a:link {
+  text-decoration: none;
+}
+
+.form-login .txt-signin-login a span {
+  font-size: 14px;
+  color: #C5A17D;
+  display: flex;
+  justify-content: center;
+}
+
+.form-login .txt-signin-login a:link {
+  text-decoration: none;
+}
+
+.form-login .txt a:link {
   text-decoration: none;
 }
 
@@ -67,6 +89,8 @@
   justify-content: center;
   margin-bottom: 10px;
   transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .form-login .btn-login:hover {
   box-shadow: 5px 5px 15px 5px rgba(197, 161, 125, 0.3);
@@ -74,6 +98,7 @@
   color: #C5A17D;
   transition: 0.5s;
   border: 1px solid #C5A17D;
+  cursor: pointer;
 }
 
 @font-face {
