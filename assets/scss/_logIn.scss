@@ -33,6 +33,10 @@
     width: 100%;
 }
 
+.form-login form{
+    width: 20vw;
+}
+
 .form-login .inputs-form input{
     border: 1px solid #4b4b4b;
     border-radius: 10px;
@@ -40,6 +44,39 @@
     height: 45px;
     width: 100%;
     padding: 10px;
-    margin-left: 40px;
     margin: 10px 0 10px 0;
 }
+
+.form-login .forget a span
+{
+    color: $brown-primary;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form-login .forget a:link{
+    text-decoration: none;
+}
+
+.form-login .btn-login{
+    color: #fff;
+    background-color:$brown-primary;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+
+    &:hover{
+    box-shadow: 5px 5px 15px 5px rgba($brown-primary,0.3 );
+    background-color: #fff;
+    color:$brown-primary;
+    transition: 0.5s;
+    border: 1px solid $brown-primary;
+    }
+}
+
