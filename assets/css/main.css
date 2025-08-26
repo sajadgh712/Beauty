@@ -1,3 +1,28 @@
+.container {
+  background-image: url(../images/loginbg.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+}
+
+.row {
+  min-height: 90vh;
+}
+
+.header-txt {
+  color: #C5A17D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  min-height: 50%;
+}
+
 @font-face {
   font-family: Ravi;
   src: url(../fonts/Ravi/Ravi-Regular.ttf);
