@@ -1,0 +1,133 @@
+@import "variables.scss";
+
+.container{
+    background-image: url(../images/loginbg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.row{
+    min-height: 90vh;
+}
+
+.header-txt{
+    color: $brown-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    min-height: 10%;
+    margin-top: 11rem;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.form-login form{
+    width: 20vw;
+}
+
+.form-login .inputs-form input{
+    border: 1px solid #4b4b4b;
+    border-radius: 10px;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.form-login .txt a span
+{
+    color: $brown-primary;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.form-login .txt-signin-login_black a span{
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login .txt-signin-login_black a:link{
+        text-decoration: none;
+}
+
+.form-login .txt-signin-login a span{
+    font-size: 0.9rem;
+    color: $brown-primary;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login .txt-signin-login a:link{
+    text-decoration: none;
+}
+
+.form-login .txt a:link{
+    text-decoration: none;
+}
+
+.form-login .btn-login{
+    color: #fff;
+    background-color:$brown-primary;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &:hover{
+    box-shadow: 5px 5px 15px 5px rgba($brown-primary,0.3 );
+    background-color: #fff;
+    color:$brown-primary;
+    transition: 0.5s;
+    border: 1px solid $brown-primary;
+    cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) {
+        .container {
+            flex-direction: column;
+        }
+        .header-txt{
+            font-size: 1rem;
+        }
+        .form-login form{
+            width: 30vw;
+        }
+        .form-login .txt a span {
+            font-size: 0.5rem;
+        }
+        .form-login .txt-signin-login_black a span{
+            font-size: 0.6rem;
+        }
+        .form-login .txt-signin-login a span{
+            font-size: 0.6rem;
+        }
+        .form-login .btn-login{
+            font-size: 0.6rem;
+            padding: 4px;
+        }
+    }
+
+
