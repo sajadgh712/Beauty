@@ -125,6 +125,41 @@
     padding: 4px;
   }
 }
+.nav-btn {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #121212;
+  border-radius: 30px;
+  padding: 5px 35px 5px 35px;
+  transition: 1s;
+  width: 10%;
+}
+.nav-btn:hover {
+  color: #fff;
+  background-color: #C5A17D;
+  box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.2745098039);
+}
+
+.nav-item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.nav-item .nav-items {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.nav-item .nav-items:hover {
+  border-bottom: 1px solid #EABF94;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2705882353);
+  cursor: pointer;
+}
+
 @font-face {
   font-family: Ravi;
   src: url(../fonts/Ravi/Ravi-Regular.ttf);
