@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+.nav-btn{
+    color:$black-color ;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid $black-color;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    transition: 1s;
+    // margin-top: 10px; for mobile devices
+    &:hover{
+        color: $withe-color;
+        background-color: $brown-primary;
+        box-shadow: 1px 1px 8px 5px #00000046;
+    }
+}
