@@ -160,6 +160,18 @@
   cursor: pointer;
 }
 
+.main-bg {
+  background: linear-gradient(to right, #FFFFFF, #FEEAE6);
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -200px;
+}
+
 @font-face {
   font-family: Ravi;
   src: url(../fonts/Ravi/Ravi-Regular.ttf);
