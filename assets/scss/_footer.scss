@@ -1,0 +1,50 @@
+@import "variables.scss";
+
+.footer-main{
+    border: 1px solid $black-color;
+    border-radius: 20px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.top-text{
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-footer{
+    color: $black-color;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.middle-text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bottom-text{
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 10vh;
+}
+
+
+@media (max-width: 767px){
+    .footer-main{
+        height: 100%;
+    }
+}
